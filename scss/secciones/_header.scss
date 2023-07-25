@@ -1,0 +1,12 @@
+header { border: solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap-reverse;
+flex-direction: row-reverse;
+background-color:  grey;}
+
+header a { text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif }
+    

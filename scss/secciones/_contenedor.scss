@@ -1,0 +1,19 @@
+.contenedor {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 50px;
+    padding: 15px;}
+
+    .contenido {
+        width: 1000px;
+         display: grid;
+         grid-template-columns: 200px 200px 200px 200px 200px;
+         grid-template-rows: 400px;
+         align-items: start;
+         overflow: hidden;
+         margin: 30px;
+         border: 3px solid black;
+     }

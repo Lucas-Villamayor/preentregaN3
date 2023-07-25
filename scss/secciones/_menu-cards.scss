@@ -1,0 +1,46 @@
+.menu-card { display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+    width: 800px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "buscador contenido contenido"
+      "buscador elegidos elegidos"
+      "carrusel carrusel carrusel"
+      ;
+    } 
+      .menu-card { display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+    width: 80%;
+    height: 600px;
+    flex-wrap: wrap;
+    margin: auto;}
+  
+  .contenido { grid-area: contenido; }
+  
+  .buscador { grid-area: buscador; }
+  
+  .elegidos { grid-area: elegidos; }
+  
+  .carrusel { grid-area: carrusel; }
+
+
+.card {
+  margin: 5px;
+background-color: gray;
+border-radius: 2px;}
+
+  
+.card:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+
+.card:hover p {
+  color: var(--text-color-hover);
+}
+
