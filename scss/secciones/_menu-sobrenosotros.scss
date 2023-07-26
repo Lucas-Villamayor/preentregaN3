@@ -1,0 +1,39 @@
+.imagenes-nosotros { display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: flex-start;
+margin: 50px;}
+        .nosotros1 {width: 100%;
+        margin: 5px;
+        border: solid 2px #9376E0;
+        transform: rotateZ(360deg);
+        transition: all 8s;}
+        .nosotros2 {width: 100%;
+        margin: 5px;
+        border: solid 2px #9376E0;
+        transform: rotateX(360deg);
+        transition: all 10s;}
+        .nosotros3 {width: 100%;
+        margin: 5px;
+        border: solid 2px #9376E0;
+        transform: rotateY(360deg);
+        transition: all 12s;}
+
+        //   2do Contenedor  
+        .img-nosotros2 {display: flex;   
+        justify-content: flex-start;
+        width: 300px;
+        margin: 70px;}
+    
+        .nosotros4 {width: 100%;
+        margin: 10px;
+        border: solid 2px #9376E0;}
+        .nosotros5 {width: 100%;
+         margin: 6px;
+         border: solid 2px #9376E0;}
+        .nosotros6 {width: 100%;
+        margin: 6px;
+        border: solid 2px #9376E0;}
+        .nosotros7 {width: 100%;
+        margin: 6px;
+        border: solid 2px #9376E0;}

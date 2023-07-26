@@ -9,4 +9,16 @@ background-color:  grey;}
 header a { text-decoration: none;
     text-transform: uppercase;
     font-family: sans-serif }
+
+    .navbar { width: 100%;
+        display: flex;
+        justify-content: space-around;
+    color: brown;}
+    .navbar-toggler { background-color: brown;}
+    
+    .logo-principal{transform: skew(25 deg);}
+        
+        .collapse { display: flex;
+            justify-content: space-around;
+        margin: 10px;}
     
