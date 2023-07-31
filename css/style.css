@@ -52,7 +52,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto1 {
+.foto1-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -66,7 +66,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto2 {
+.foto2-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -80,7 +80,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto3 {
+.foto3-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -94,7 +94,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto4 {
+.foto4-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -108,7 +108,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto5 {
+.foto5-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -122,7 +122,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto6 {
+.foto6-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -136,7 +136,7 @@ header a {
   overflow: hidden;
   align-items: center; }
 
-.foto7 {
+.foto7-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -150,7 +150,7 @@ header a {
   overflow: hidden;
   align-items: flex-start; }
 
-.foto8 {
+.foto8-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -165,7 +165,7 @@ header a {
   align-items: center;
   align-items: flex-start; }
 
-.foto9 {
+.foto9-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -179,7 +179,7 @@ header a {
   overflow: hidden;
   align-items: flex-start; }
 
-.foto10 {
+.foto10-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -193,7 +193,7 @@ header a {
   overflow: hidden;
   align-items: flex-start; }
 
-.foto11 {
+.foto11-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -207,7 +207,7 @@ header a {
   overflow: hidden;
   align-items: flex-start; }
 
-.foto12 {
+.foto12-productos {
   width: 100%;
   margin-bottom: 5px;
   object-fit: cover; }
@@ -230,26 +230,31 @@ header a {
   overflow: hidden;
   margin: 30px;
   border: 3px solid black; }
-  .contenido .foto1 {
-    width: 100%;
-    height: 400px;
-    overflow: hidden; }
-    .contenido .foto1 .foto2 {
-      width: 100%;
-      height: 400px;
-      overflow: hidden; }
-      .contenido .foto1 .foto2 .foto3 {
-        width: 100%;
-        height: 400px;
-        overflow: hidden; }
-        .contenido .foto1 .foto2 .foto3 .foto4 {
-          width: 100%;
-          height: 400px;
-          overflow: hidden; }
-          .contenido .foto1 .foto2 .foto3 .foto4 .foto5 {
-            width: 100%;
-            height: 400px;
-            overflow: hidden; }
+
+.huevera-inicio {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; }
+
+.mate-inicio {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; }
+
+.azucarera-inicio {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; }
+
+.alcaucil-inicio {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; }
+
+.buenviaje-inicio {
+  width: 100%;
+  height: 400px;
+  overflow: hidden; }
 
 form {
   display: flex;
