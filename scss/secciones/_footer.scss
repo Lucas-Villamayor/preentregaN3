@@ -1,9 +1,9 @@
 .footer {
     display: flex;
-    justify-content: space-around;
-    background-color: black;
-    height: 150px;
-     margin-top: 200px;
+    width: 150px;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+     margin-top: 150px;
      align-items: center;
 }
 

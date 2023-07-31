@@ -230,31 +230,26 @@ header a {
   overflow: hidden;
   margin: 30px;
   border: 3px solid black; }
-
-.foto1 {
-  width: 100%;
-  height: 400px;
-  overflow: hidden; }
-
-.foto2 {
-  width: 100%;
-  height: 400px;
-  overflow: hidden; }
-
-.foto3 {
-  width: 100%;
-  height: 400px;
-  overflow: hidden; }
-
-.foto4 {
-  width: 100%;
-  height: 400px;
-  overflow: hidden; }
-
-.foto5 {
-  width: 100%;
-  height: 400px;
-  overflow: hidden; }
+  .contenido .foto1 {
+    width: 100%;
+    height: 400px;
+    overflow: hidden; }
+    .contenido .foto1 .foto2 {
+      width: 100%;
+      height: 400px;
+      overflow: hidden; }
+      .contenido .foto1 .foto2 .foto3 {
+        width: 100%;
+        height: 400px;
+        overflow: hidden; }
+        .contenido .foto1 .foto2 .foto3 .foto4 {
+          width: 100%;
+          height: 400px;
+          overflow: hidden; }
+          .contenido .foto1 .foto2 .foto3 .foto4 .foto5 {
+            width: 100%;
+            height: 400px;
+            overflow: hidden; }
 
 form {
   display: flex;
@@ -399,10 +394,10 @@ input a {
 
 .footer {
   display: flex;
-  justify-content: space-around;
-  background-color: black;
-  height: 150px;
-  margin-top: 200px;
+  width: 150px;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  margin-top: 150px;
   align-items: center; }
 
 .wsp {
@@ -433,7 +428,7 @@ body {
     width: 150px; }
   .encabezadosobre .dos2 {
     width: 150px; }
-  .encabezadosobre .tres {
+  .encabezadosobre .tres3 {
     width: 150px; }
   .encabezadosobre .logosobre2 {
     display: flex;
