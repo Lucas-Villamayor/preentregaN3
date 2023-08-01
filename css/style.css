@@ -309,9 +309,7 @@ input a {
   height: 600px;
   width: 800px;
   grid-auto-flow: row;
-  grid-template-areas: "buscador contenido contenido"
- "buscador elegidos elegidos"
- "carrusel carrusel carrusel"; }
+  grid-template-areas: "buscador contenido contenido" "buscador elegidos elegidos" "carrusel carrusel carrusel"; }
 
 .menu-card {
   display: flex;
@@ -504,3 +502,19 @@ small {
   margin: 10px; }
 
 /* ---------------------------------------------footer---------------------------------------- */
+.footer {
+  display: flex;
+  width: 150px;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  margin-top: 150px;
+  align-items: center; }
+
+.wsp {
+  width: 3%; }
+
+.instagram {
+  width: 3%; }
+
+.facebook {
+  width: 3%; }
