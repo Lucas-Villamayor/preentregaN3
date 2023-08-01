@@ -309,7 +309,9 @@ input a {
   height: 600px;
   width: 800px;
   grid-auto-flow: row;
-  grid-template-areas: "buscador contenido contenido" "buscador elegidos elegidos" "carrusel carrusel carrusel"; }
+  grid-template-areas: "buscador contenido contenido"
+ "buscador elegidos elegidos"
+ "carrusel carrusel carrusel"; }
 
 .menu-card {
   display: flex;
