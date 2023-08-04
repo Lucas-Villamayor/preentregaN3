@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ysabeau+Office:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto:wght@100&family=Ysabeau+Office:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Thasadith:ital@1&display=swap");
 * {
   Margin: 0;
   Padding: 0; }
@@ -304,9 +306,9 @@ header a {
   padding: 15px; }
 
 .contenido {
-  width: 1050px;
+  width: 80%;
   display: grid;
-  grid-template-columns: 210px 210px 210px 210px 210px;
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 400px;
   align-items: start;
   overflow: hidden;
@@ -423,10 +425,28 @@ input a {
 .carrusel {
   grid-area: carrusel; }
 
+.card-body {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-style: double; }
+
 .card {
   margin: 5px;
   background-color: gray;
-  border-radius: 2px; }
+  border-radius: 2px;
+  border-style: groove; }
+
+.card p {
+  color: aliceblue;
+  font-family: 'Thasadith', sans-serif; }
+
+.card-title {
+  color: darksalmon;
+  font-family: 'Edu SA Beginner', cursive; }
 
 .card:hover {
   transform: translateY(-10px) scale(1.005) translateZ(0);

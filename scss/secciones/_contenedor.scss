@@ -8,9 +8,9 @@
     padding: 15px;}
 
     .contenido {
-        width: 1050px;
+        width: 80%;
          display: grid;
-         grid-template-columns: 210px 210px 210px 210px 210px;
+         grid-template-columns: repeat(5, 1fr);
          grid-template-rows: 400px;
          align-items: start;
          overflow: hidden;

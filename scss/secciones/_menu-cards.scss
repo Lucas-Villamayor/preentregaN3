@@ -28,11 +28,24 @@
   
   .carrusel { grid-area: carrusel; }
 
-
+.card-body {background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+border-style: double;}
 .card {
   margin: 5px;
 background-color: gray;
-border-radius: 2px;}
+border-radius: 2px;
+border-style: groove;}
+
+.card p { color: aliceblue;
+  font-family: 'Thasadith', sans-serif;}
+
+.card-title {color: darksalmon;
+  font-family: 'Edu SA Beginner', cursive;}
 
   
 .card:hover {
