@@ -56,7 +56,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto1-productos {
   width: 100%;
@@ -75,7 +76,8 @@ header a {
   margin-top: 8px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto2-productos {
   width: 100%;
@@ -93,7 +95,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto3-productos {
   width: 100%;
@@ -111,7 +114,8 @@ header a {
   margin-top: 8px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto4-productos {
   width: 310px;
@@ -130,7 +134,8 @@ header a {
   margin-top: 8px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto5-productos {
   width: 100%;
@@ -149,7 +154,8 @@ header a {
   margin-top: 8px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto6-productos {
   width: 100%;
@@ -168,7 +174,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: center; }
+  align-items: center;
+  border-radius: 10px; }
 
 .foto7-productos {
   width: 100%;
@@ -188,7 +195,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 10px; }
 
 .foto8-productos {
   width: 100%;
@@ -209,7 +217,8 @@ header a {
   display: flex;
   overflow: hidden;
   align-items: center;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 10px; }
 
 .foto9-productos {
   width: 100%;
@@ -229,7 +238,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 10px; }
 
 .foto10-productos {
   width: 100%;
@@ -249,7 +259,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 10px; }
 
 .foto11-productos {
   width: 100%;
@@ -269,7 +280,8 @@ header a {
   margin-top: 4px;
   display: flex;
   overflow: hidden;
-  align-items: flex-start; }
+  align-items: flex-start;
+  border-radius: 10px; }
 
 .foto12-productos {
   width: 100%;
@@ -554,29 +566,54 @@ article p {
   width: 80%;
   margin: auto; }
 
-.contacto {
-  height: 400px;
-  display: flex;
-  margin: 30px;
-  border: solid 1px aqua;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  background-color: salmon; }
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
 
-.mb-3 {
-  display: flex;
-  border: #9376E0; }
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px; }
 
-.cont {
-  display: flex;
-  justify-content: center;
-  border: solid 1px aqua;
-  margin: 30px;
-  width: 100%; }
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white; }
 
-.form-control {
-  border: #E893CF solid 2px; }
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px; }
+
+.form-register a {
+  color: white;
+  text-decoration: none; }
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline; }
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px; }
 
 /* --------------------------------------------envios-------------------------------- */
 .envios {
