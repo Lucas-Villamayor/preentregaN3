@@ -1,19 +1,21 @@
-header { border: solid black;
+header { background-color: black;
+    border: solid black;
     display: flex;
     justify-content: space-around;
     align-items: center; 
     flex-wrap: wrap-reverse;
-flex-direction: row-reverse;
-background-color:  grey;}
+flex-direction: row-reverse;}
 
 header a { text-decoration: none;
     text-transform: uppercase;
-    font-family: sans-serif }
+    font-family: 'Edu SA Beginner', cursive;
+margin-left: 10px;}
 
     .navbar { width: 100%;
         display: flex;
         justify-content: space-around;
     color: brown;}
+
     .navbar-toggler { background-color: brown;}
     
     .logo-principal{transform: skew(25 deg);}

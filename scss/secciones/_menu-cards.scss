@@ -1,7 +1,7 @@
 .menu-card { display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 600px;
+    // height: 600px;
     width: 800px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -13,7 +13,7 @@
       .menu-card { display: flex;
         flex-wrap: wrap;
     width: 80%;
-    height: 1030px;
+    // height: 1030px;
     flex-wrap: wrap;
     margin: auto;}
   

@@ -1,5 +1,6 @@
 @import "./utilidades/reset";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ysabeau+Office:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto:wght@100&family=Ysabeau+Office:wght@300&display=swap');
 
 @import "./secciones/header";
 @import "./secciones/menu-productos";
@@ -12,14 +13,23 @@
 
 
 
+
+
     /* ---------------------------------------PRINCIPAL------------------------------------------ */  
 
-    body {background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);}
+    body {background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+    .titulo-principal {font-family: 'Ysabeau Office', sans-serif, cursive;
+    text-align: center;
+    margin-top: 10px;}
+    
+
    
     
     /* ---------------------------------productos----------------------------------------- */
-    .encabezado { display: flex;
-    background-color: #9376E0;
+    .encabezado { display: flex;;
     border-color: aqua;
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;}
@@ -89,7 +99,7 @@
      /* ---------------------------------------------footer---------------------------------------- */
      .footer {
         display: flex;
-        width: 150px;
+        width: 100%;
         justify-content: flex-end;
         flex-direction: row-reverse;
          margin-top: 150px;
