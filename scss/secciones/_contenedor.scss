@@ -49,16 +49,18 @@
 
       form { display: flex;
         flex-direction: column;
-    border: solid 2px rosybrown;
+        border: solid 3px black;
+    border-radius: 15px;
     align-items: center;
     width: 200px;
-    height: 400px;
+    height: 320px;
     justify-content: space-evenly;
     background-color: lightblue;
-    margin: 30px;
+    margin: 50px;
     font-family: 'Courier New', Courier, monospace;}
            form a { color: #E893CF;
-                  text-decoration-line: none;}
+                  text-decoration-line: none;
+                margin-top: 5px;}
       
        .buscador { height: 200px;
         display: flex;
@@ -71,15 +73,17 @@
             color: black;}
 
       
-      .titulo2 {padding: 30px;
-          font-family: Georgia, 'Times New Roman', Times, serif;
-          font-size: medium;}
+      .titulo2 { font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: medium;
+          margin-top: 30px;
+          text-align: center;}
       
       input { width: 100%;
-        margin: 10px;
-       border: solid #9376E0;}
-          input a { margin: 10px;
+        margin: 5px;
+       border: solid 1px black}
+          input a { margin: 5px;
                     font-family: Georgia, 'Times New Roman', Times, serif;}
-                       ::placeholder { position: center;}
+                       ::placeholder { position: center;
+                      text-align: center;}
       
     

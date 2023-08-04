@@ -16,21 +16,28 @@
 }
 
 .foto1-productos {width: 100%;
-margin-bottom: 5px;
-object-fit: cover;}
+margin-bottom: 8px;
+object-fit: cover;
+cursor: pointer;}
+    .foto1-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+  0 24px 46px var(--box-shadow-color);}
 
-.img2 {width: 300px;
+.img2  {width: 300px;
     height: 300px;
     border: solid black 2px;
-   margin-top: 4px;
+   margin-top: 8px;
    display: flex;
    overflow: hidden;
    align-items: center;}
 
 .foto2-productos {width: 100%;
-    margin-bottom: 5px;
-    object-fit: cover;}
-
+    // margin-bottom: 5px;
+    object-fit: cover;
+    cursor: pointer;}
+    .foto2-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
 .img3 {width: 300px;
     height: 300px;
     border: solid black 2px;
@@ -40,44 +47,58 @@ object-fit: cover;}
     align-items: center;}
 
 .foto3-productos {width: 100%;
-    margin-bottom: 5px;
-    object-fit: cover;}
+    object-fit: cover;
+    cursor: pointer;}
+    .foto3-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
 
 .img4 {width: 300px;
     height: 300px;
     border: solid black 2px;
-    margin-top: 4px;
+    margin-top: 8px;
     display: flex;
     overflow: hidden;
     align-items: center;}
 
-.foto4-productos {width: 100%;
-    margin-bottom: 5px;
-    object-fit: cover;}
-
+.foto4-productos {width: 310px;
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;}
+    .foto4-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
 .img5 {width: 300px;
     height: 300px;
     border: solid black 2px;
-    margin-top: 4px;
+    margin-top: 8px;
     display: flex;
     overflow: hidden;
     align-items: center;}
 
 .foto5-productos {width: 100%;
-        margin-bottom: 5px;
-        object-fit: cover;}
+    height: 320px;
+        object-fit: cover;
+        cursor: pointer;}
+    .foto5-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+        0 24px 46px var(--box-shadow-color);}
 
 .img6 {width: 300px;
     height: 300px;
     border: solid black 2px;
-    margin-top: 4px;
+    margin-top: 8px;
     display: flex;
     overflow: hidden;
     align-items: center;}
 
 .foto6-productos {width: 100%;
-    margin-bottom: 5px;
-    object-fit: cover;}
+    height: 320px;
+    object-fit: cover;
+    cursor: pointer;}
+    .foto6-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);}
 
 .img7 {width: 300px;
     height: 300px;
@@ -88,9 +109,13 @@ object-fit: cover;}
     align-items: center;}
 
 .foto7-productos {width: 100%;
+    height: 320px;
         margin-bottom: 5px;
-        object-fit: cover;}
-
+        object-fit: cover;
+        cursor: pointer;}
+    .foto7-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+            box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+              0 24px 46px var(--box-shadow-color);}
 .img8 {width: 300px;
     height: 300px;
     border: solid black 2px;
@@ -100,8 +125,13 @@ object-fit: cover;}
     align-items: flex-start;}
 
 .foto8-productos {width: 100%;
+    height: 320px;
     margin-bottom: 5px;
-    object-fit: cover;}
+    object-fit: cover;
+    cursor: pointer;}
+    .foto8-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+     0 24px 46px var(--box-shadow-color);}
 
 
 .img9 {width: 300px;
@@ -114,8 +144,13 @@ align-items: center;
 align-items: flex-start;}
 
 .foto9-productos {width: 100%;
+    height: 320px;
     margin-bottom: 5px;
-    object-fit: cover;}
+    object-fit: cover;
+    cursor: pointer;}
+    .foto9-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
 
 .img10 {width: 300px;
         height: 300px;
@@ -126,8 +161,13 @@ align-items: flex-start;}
     align-items: flex-start;}
 
 .foto10-productos {width: 100%;
+    height: 320px;
     margin-bottom: 5px;
-    object-fit: cover;}
+    object-fit: cover;
+    cursor: pointer;}
+    .foto10-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
 
 .img11 {width: 300px;
         height: 300px;
@@ -138,8 +178,12 @@ align-items: flex-start;}
         align-items: flex-start;}
 
 .foto11-productos {width: 100%;
+    height: 320px;
     margin-bottom: 5px;
-    object-fit: cover;}
+    object-fit: cover;cursor: pointer;}
+    .foto11-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
 
 
 .img12 {width: 300px;
@@ -151,6 +195,11 @@ align-items: flex-start;}
     align-items: flex-start;}
 
 .foto12-productos {width: 100%;
+    height: 320px;
     margin-bottom: 5px;
-    object-fit: cover;}
+    object-fit: cover;
+    cursor: pointer;}
+    .foto12-productos:hover {transform: translateY(-10px) scale(1.005) translateZ(0);
+        box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+          0 24px 46px var(--box-shadow-color);}
     

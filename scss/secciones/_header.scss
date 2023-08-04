@@ -1,5 +1,4 @@
-header { background-color: black;
-    border: solid black;
+header { color: black;
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -19,8 +18,10 @@ margin-left: 10px;}
     .navbar-toggler { background-color: brown;}
     
     .logo-principal{transform: skew(25 deg);}
-        
-        .collapse { display: flex;
-            justify-content: space-around;
-        margin: 10px;}
-    
+    .collapse { text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Edu SA Beginner', cursive;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }

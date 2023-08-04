@@ -5,8 +5,7 @@
   Padding: 0; }
 
 header {
-  background-color: black;
-  border: solid black;
+  color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,9 +31,13 @@ header a {
   transform: skew(25 deg); }
 
 .collapse {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Edu SA Beginner', cursive;
+  margin-left: 10px;
   display: flex;
   justify-content: space-around;
-  margin: 10px; }
+  align-items: center; }
 
 .olor {
   display: flex;
@@ -57,22 +60,31 @@ header a {
 
 .foto1-productos {
   width: 100%;
-  margin-bottom: 5px;
-  object-fit: cover; }
+  margin-bottom: 8px;
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto1-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img2 {
   width: 300px;
   height: 300px;
   border: solid black 2px;
-  margin-top: 4px;
+  margin-top: 8px;
   display: flex;
   overflow: hidden;
   align-items: center; }
 
 .foto2-productos {
   width: 100%;
-  margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto2-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img3 {
   width: 300px;
@@ -85,50 +97,69 @@ header a {
 
 .foto3-productos {
   width: 100%;
-  margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto3-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img4 {
   width: 300px;
   height: 300px;
   border: solid black 2px;
-  margin-top: 4px;
+  margin-top: 8px;
   display: flex;
   overflow: hidden;
   align-items: center; }
 
 .foto4-productos {
-  width: 100%;
-  margin-bottom: 5px;
-  object-fit: cover; }
+  width: 310px;
+  height: 320px;
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto4-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img5 {
   width: 300px;
   height: 300px;
   border: solid black 2px;
-  margin-top: 4px;
+  margin-top: 8px;
   display: flex;
   overflow: hidden;
   align-items: center; }
 
 .foto5-productos {
   width: 100%;
-  margin-bottom: 5px;
-  object-fit: cover; }
+  height: 320px;
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto5-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img6 {
   width: 300px;
   height: 300px;
   border: solid black 2px;
-  margin-top: 4px;
+  margin-top: 8px;
   display: flex;
   overflow: hidden;
   align-items: center; }
 
 .foto6-productos {
   width: 100%;
-  margin-bottom: 5px;
-  object-fit: cover; }
+  height: 320px;
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto6-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img7 {
   width: 300px;
@@ -141,8 +172,14 @@ header a {
 
 .foto7-productos {
   width: 100%;
+  height: 320px;
   margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto7-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img8 {
   width: 300px;
@@ -155,8 +192,14 @@ header a {
 
 .foto8-productos {
   width: 100%;
+  height: 320px;
   margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto8-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img9 {
   width: 300px;
@@ -170,8 +213,14 @@ header a {
 
 .foto9-productos {
   width: 100%;
+  height: 320px;
   margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto9-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img10 {
   width: 300px;
@@ -184,8 +233,14 @@ header a {
 
 .foto10-productos {
   width: 100%;
+  height: 320px;
   margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto10-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img11 {
   width: 300px;
@@ -198,8 +253,14 @@ header a {
 
 .foto11-productos {
   width: 100%;
+  height: 320px;
   margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto11-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .img12 {
   width: 300px;
@@ -212,8 +273,14 @@ header a {
 
 .foto12-productos {
   width: 100%;
+  height: 320px;
   margin-bottom: 5px;
-  object-fit: cover; }
+  object-fit: cover;
+  cursor: pointer; }
+
+.foto12-productos:hover {
+  transform: translateY(-10px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color); }
 
 .contenedor {
   display: flex;
@@ -266,18 +333,20 @@ header a {
 form {
   display: flex;
   flex-direction: column;
-  border: solid 2px rosybrown;
+  border: solid 3px black;
+  border-radius: 15px;
   align-items: center;
   width: 200px;
-  height: 400px;
+  height: 320px;
   justify-content: space-evenly;
   background-color: lightblue;
-  margin: 30px;
+  margin: 50px;
   font-family: 'Courier New', Courier, monospace; }
 
 form a {
   color: #E893CF;
-  text-decoration-line: none; }
+  text-decoration-line: none;
+  margin-top: 5px; }
 
 .buscador {
   height: 200px;
@@ -293,21 +362,23 @@ form a {
   color: black; }
 
 .titulo2 {
-  padding: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: medium; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  margin-top: 30px;
+  text-align: center; }
 
 input {
   width: 100%;
-  margin: 10px;
-  border: solid #9376E0; }
+  margin: 5px;
+  border: solid 1px black; }
 
 input a {
-  margin: 10px;
+  margin: 5px;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 ::placeholder {
-  position: center; }
+  position: center;
+  text-align: center; }
 
 .menu-card {
   display: grid;
@@ -323,6 +394,10 @@ input a {
   width: 80%;
   flex-wrap: wrap;
   margin: auto; }
+
+.card {
+  border-left: 2px black;
+  border-right: 2px black; }
 
 .contenido {
   grid-area: contenido; }
@@ -430,7 +505,8 @@ body {
 .titulo-principal {
   font-family: 'Ysabeau Office', sans-serif, cursive;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  text-align: center; }
 
 /* ---------------------------------productos----------------------------------------- */
 .encabezado {
