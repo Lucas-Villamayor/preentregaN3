@@ -24,10 +24,10 @@ header a {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  color: brown; }
+  color: black; }
 
 .navbar-toggler {
-  background-color: brown; }
+  background-color: gray; }
 
 .logo-principal {
   transform: skew(25 deg); }
@@ -455,6 +455,9 @@ input a {
   justify-content: flex-start;
   margin: 50px; }
 
+.titulo-nosotros {
+  text-align: center; }
+
 .mi-clase {
   width: 50%;
   height: 50%; }
@@ -501,6 +504,13 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 /* -------------Sobre nosotros--------------- */
+.logo-principal {
+  width: 100%; }
+
+.navbar-brand {
+  margin-left: 30px;
+  width: 20%; }
+
 .encabezadosobre {
   background-color: bisque; }
   .encabezadosobre .uno1 {
@@ -647,7 +657,7 @@ small {
     flex-direction: column; }
   .titulo-principal {
     margin-bottom: 48px;
-    background-color: black;
+    background-color: #f8a5cc;
     width: 80%;
     margin: auto;
     color: white;

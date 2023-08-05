@@ -44,6 +44,10 @@
     //     .imagenes-nosotros {display: flex;
     //         flex-direction: column;}
     // } HACER FUNCIONAR LA MEDIA QUERIS!!
+    .logo-principal {width: 100%;}
+    .navbar-brand {
+      margin-left: 30px;
+      width: 20%;}
     .encabezadosobre {
         background-color:bisque;
       .uno1 {width: 150px;}
@@ -179,7 +183,7 @@ margin: 5px;}
 @media (max-width: 551px) {}
   .titulo-principal {
       margin-bottom: 48px;
-      background-color: black;
+      background-color:#f8a5cc;
       width: 80%;
       margin: auto;
       color: white;
