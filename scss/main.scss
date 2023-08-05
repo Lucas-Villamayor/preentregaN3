@@ -73,20 +73,7 @@
     article p { width: 80%;
     margin: auto;}
     
-  img.foto-carrusel { width: 40%;
-      height: 40%;
-    margin: auto;}
   
-  .carousel-caption {margin: auto;
-    height: 150px;
-  width: 50%;
-  color: black;}
-  
-      .carousel-item.active {margin: auto;
-        width:  40%;
-      display: flex;
-      justify-content: center;
-      }
     // ---------------------------------- contacto -------------------- */
     .form-register {
         width: 400px;
@@ -146,26 +133,24 @@
     //   ---------------------------------------------sobre nosotros-------------------------
     // .carousel-item {width: 500px;
     // height: 500px;}
-.d-block { width: 40%;
-    height: 40%;
-  margin: auto;}
-
-.carousel-caption {margin: auto;
-  height: 150px;
-width: 500%;
-color: black;}
-
-    .carousel-item.active {margin: auto;
-      width:  40%;
-    display: flex;
-    justify-content: center;
+  .mi-clase { width: 50%;
+  height: 50%;
+margin: auto;}
+  .d-block {width: 50%;}
+  .carousel-indicators {width: 250px;
+    margin: auto;
+    height: 200px;
     }
     /* --------------------------------------------envios-------------------------------- */
     .envios {display: flex;
         justify-content: space-evenly;}
-    
-     ol { border: solid 2px #9376E0;
-    text-decoration:wavy;}
+           ol { border: solid 2px black;
+    text-decoration:wavy;
+  background-color: coral;
+margin: 5px;}
+
+
+ li a {font-family: 'Ysabeau Office', sans-serif, cursive;}
     
      small { margin:10px;}
     
