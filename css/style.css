@@ -594,12 +594,11 @@ article p {
   margin: auto; }
 
 .d-block {
-  width: 50%; }
+  width: 50%;
+  margin: auto; }
 
-.carousel-indicators {
-  width: 250px;
-  margin: auto;
-  height: 200px; }
+.carousel-item.active {
+  margin: 100px; }
 
 /* --------------------------------------------envios-------------------------------- */
 .envios {

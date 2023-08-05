@@ -136,11 +136,11 @@
   .mi-clase { width: 50%;
   height: 50%;
 margin: auto;}
-  .d-block {width: 50%;}
-  .carousel-indicators {width: 250px;
-    margin: auto;
-    height: 200px;
-    }
+  .d-block {width: 50%;
+  margin: auto;}
+  .carousel-item.active {margin: 100px;}
+  .carousel-control-prev {margin: auto;}
+
     /* --------------------------------------------envios-------------------------------- */
     .envios {display: flex;
         justify-content: space-evenly;}
