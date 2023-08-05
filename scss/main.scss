@@ -139,7 +139,9 @@ margin: auto;}
   .d-block {width: 50%;
   margin: auto;}
   .carousel-item.active {margin: 100px;}
-  .carousel-control-prev {margin: auto;}
+  .carousel-indicators {height: 300px;
+    margin-left: 325px;}
+  
 
     /* --------------------------------------------envios-------------------------------- */
     .envios {display: flex;
@@ -168,4 +170,38 @@ margin: 5px;}
             .instagram  {width: 3%;}
             .facebook {width: 3%;}
       
-            
+// --------------------------------------Media queries---------------------------------------
+//  Si mi dispositivo tiene
+@media (max-width: 551px) {
+  .contenedor { display: none}
+  .menu-card {display: flex;
+  flex-direction: column;}
+@media (max-width: 551px) {}
+  .titulo-principal {
+      margin-bottom: 48px;
+      background-color: black;
+      width: 80%;
+      margin: auto;
+      color: white;
+      border-radius: 15px;}
+  }
+@media (min-width:768px){ 
+  .buscador { display: flex;
+  flex-direction: column;
+width: 100%;}
+}
+@media (max-width: 375px) {
+  .encabezadosobre {display: flex;
+    justify-content: space-evenly;
+  height: 100px;
+width: 100%;}
+  .none {display: none;}
+  .carro { width: 25%;
+    overflow: hidden;}
+        .mensaje { width: 25%;
+        overflow: hidden;}
+        .camiones { width: 25%;
+        overflow: hidden;}
+    
+
+}
